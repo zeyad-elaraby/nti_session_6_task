@@ -18,14 +18,11 @@ class ProductListItem extends StatelessWidget {
       case 'new':
         statusColor = Colors.green[600]!;
         break;
-      case 'sale':
+      case 'used':
         statusColor = Colors.red[600]!;
         break;
-      case 'featured':
-        statusColor = Colors.purple[600]!;
-        break;
       default:
-        statusColor = Colors.blue[600]!;
+        statusColor = Colors.grey[600]!;
     }
 
     return GestureDetector(
