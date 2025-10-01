@@ -5,7 +5,7 @@ import 'package:nti_session_6_task/core/services/service_locator.dart';
 import 'package:nti_session_6_task/products/domain/entities/product_entity.dart';
 import 'package:nti_session_6_task/products/presentation/controller/products_cubit.dart';
 import 'package:nti_session_6_task/products/presentation/controller/products_states.dart';
-import 'package:nti_session_6_task/products/presentation/views/test.dart';
+import 'package:nti_session_6_task/products/presentation/views/produuct_list_item.dart';
 
 class ProductsScreen extends StatelessWidget {
   const ProductsScreen({super.key});
